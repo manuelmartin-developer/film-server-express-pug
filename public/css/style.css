@@ -1,0 +1,74 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+#title{
+ 
+	width: 100%;
+    padding: 7px 10px;
+    height: 42px;
+	background: #f0f0f0;
+	color: #7b7b7b;
+	font-size: 1em;
+	font-family: 
+	'Quicksand', sans-serif;
+	border:2px solid rgba(0,0,0,0.2);
+    border-radius: 12px;
+}
+#searchButton{
+
+    cursor: pointer;
+    width: 100%;
+    padding: 7px 10px;
+    height: 42px;
+    margin-top: 20px;
+    outline: 0; 
+    border: 0;
+    border-radius: 0;
+    background: #f0f0f0;
+    color: #7b7b7b;
+    font-size: 1em;
+    font-family: 
+    'Quicksand', sans-serif;
+    border:2px solid rgba(0,0,0,0.2);
+    border-radius: 12px;
+}
+
+#section{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid lightgray;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 1.2rem;
+    width: 80%;
+}
+#filmHead{
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+    background: rgb(12,12,13);
+    background: linear-gradient(90deg, rgba(12,12,13,1) 0%, rgba(35,35,55,0.5326505602240896) 51%, rgba(134,147,149,1) 100%);
+
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid lightgray;
+    border-radius: 20px;
+    padding: 50px;
+    font-size: 1.2rem;
+    width: 60%;
+}
+h1{
+    font-size: 3rem;
+    text-align: center;
+}
